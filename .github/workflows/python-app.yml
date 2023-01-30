@@ -13,10 +13,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container:
-      image: compose-latest
-      volumes: 
-        - ${{github.worksapce }}:/app
+#    container:
+#      image: compose-latest
+#      volumes: 
+#        - ${{github.worksapce }}:/app
     steps:
     
     - uses: actions/checkout@v2
